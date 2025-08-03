@@ -155,7 +155,7 @@
         mo_colon: mo_colon {
             compatible = "zmk,behavior-mod-morph";
             label = "MO_COLON";
-            bindings = <&kp SINGLE_QUOTE>, <&kp COLON>;
+            bindings = <&kp JP_COLON>, <&kp JP_PLUS>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -187,10 +187,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE    &kp F2  &kp F5        &kp COLON          &kp MINUS                                 &kp F6        &kp F7        &kp F8          &kp F9        &kp F10
-&kp NUMBER_1  &mo2    &kp NUMBER_3  &none              &kp UNDER      &none          &kp PG_UP   &kp PG_DN     &msc SCRL_UP  &msc SCRL_DOWN  &kp HOME      &kp END
-&kp NUMBER_4  &kp N5  &mo6          &kp DOUBLE_QUOTES  &kp SLASH      &none          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
-&mo7          &mo8    &mo9          &mo0               &kp BACKSPACE  &kp ENTER      &trans      &trans                                                    &kp LEFT_SHIFT
+&kp ESCAPE    &kp F2  &kp F5        &kp JP_PLUS          &kp MINUS                                 &kp F6        &kp F7        &kp F8          &kp F9        &kp F10
+&kp NUMBER_1  &mo2    &kp NUMBER_3  &none              &kp JP_EQUAL      &none          &kp PG_UP   &kp PG_DN     &msc SCRL_UP  &msc SCRL_DOWN  &kp HOME      &kp END
+&kp NUMBER_4  &kp N5  &mo6          &kp JP_ASTERISK  &kp SLASH      &none          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
+&mo7          &mo8    &mo9          &mo0               &kp BACKSPACE  &kp ENTER      &none      &none                                                    &kp LEFT_SHIFT
             >;
         };
 
