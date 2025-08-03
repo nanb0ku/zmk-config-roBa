@@ -74,6 +74,16 @@
             bindings = <&kp AT>;
             key-positions = <18 19>;
         };
+
+        LT_kakko {
+            bindings = <&mo_left>;
+            key-positions = <19 20>;
+        };
+
+        RT_kakko {
+            bindings = <&mo_right>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
@@ -161,6 +171,24 @@
             compatible = "zmk,behavior-mod-morph";
             label = "MO_COLON";
             bindings = <&kp JP_COLON>, <&kp SEMICOLON>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        mo_left: mo_left {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MO_LEFT";
+            bindings = <&kp ASTRK>, <&kp RIGHT_BRACE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
+        };
+
+        mo_right: mo_right {
+            compatible = "zmk,behavior-mod-morph";
+            label = "MO_RIGHT";
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp PIPE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
