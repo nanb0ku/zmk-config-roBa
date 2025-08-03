@@ -152,9 +152,9 @@
             mods = <(MOD_LSFT)>;
         };
 
-        mo_comma: mo_comma {
+        mo_colon: mo_colon {
             compatible = "zmk,behavior-mod-morph";
-            label = "MO_COMMA";
+            label = "MO_COLON";
             bindings = <&kp COLON>, <&kp PLUS>;
 
             #binding-cells = <0>;
@@ -168,7 +168,7 @@
         default_layer {
             bindings = <
 &kp Q   &kp W   &kp E   &kp R      &kp T                                       &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A   &kp S   &kp D   &kp F      &kp G         &trans         &kp DEL        &kp H        &kp J  &kp K      &kp L    &mo_comma
+&kp A   &kp S   &kp D   &kp F      &kp G         &trans         &kp DEL        &kp H        &kp J  &kp K      &kp L    &mo_colon
 &kp Z   &kp X   &kp C   &kp V      &kp B         &sl 1          &sl 3          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &trans  &trans  &trans  &kp LCTRL  &kp LEFT_WIN  &kp LSHFT      &kp BACKSPACE  &lt 2 ENTER                             &kp SEMICOLON
             >;
