@@ -101,7 +101,7 @@
         mo2: mo2 {
             compatible = "zmk,behavior-mod-morph";
             label = "MO2";
-            bindings = <&kp NUMBER_2>, <&kp DQT>;
+            bindings = <&kp NUMBER_2>, <&kp JP_DQUOTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -110,7 +110,7 @@
         mo6: mo6 {
             compatible = "zmk,behavior-mod-morph";
             label = "MO6";
-            bindings = <&kp NUMBER_6>, <&kp AMPERSAND>;
+            bindings = <&kp NUMBER_6>, <&kp JP_AMPERSAND >;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -119,7 +119,7 @@
         mo7: mo7 {
             compatible = "zmk,behavior-mod-morph";
             label = "MO7";
-            bindings = <&kp N7>, <&kp SQT>;
+            bindings = <&kp N7>, <&kp JP_QUOTE>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -128,7 +128,7 @@
         mo8: mo8 {
             compatible = "zmk,behavior-mod-morph";
             label = "MO8";
-            bindings = <&kp N8>, <&kp LEFT_PARENTHESIS>;
+            bindings = <&kp N8>, <&kp JP_LPAREN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -137,7 +137,7 @@
         mo9: mo9 {
             compatible = "zmk,behavior-mod-morph";
             label = "MO9";
-            bindings = <&kp N9>, <&kp RIGHT_PARENTHESIS>;
+            bindings = <&kp N9>, <&kp JP_RPAREN>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -187,7 +187,7 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE    &kp JP_DQUOTE  &kp F5        &kp COLON          &kp MINUS                                 &kp F6        &kp F7        &kp F8          &kp F9        &kp F10
+&kp ESCAPE    &kp F2  &kp F5        &kp COLON          &kp MINUS                                 &kp F6        &kp F7        &kp F8          &kp F9        &kp F10
 &kp NUMBER_1  &mo2    &kp NUMBER_3  &none              &kp UNDER      &none          &kp PG_UP   &kp PG_DN     &msc SCRL_UP  &msc SCRL_DOWN  &kp HOME      &kp END
 &kp NUMBER_4  &kp N5  &mo6          &kp DOUBLE_QUOTES  &kp SLASH      &none          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4
 &mo7          &mo8    &mo9          &mo0               &kp BACKSPACE  &kp ENTER      &trans      &trans                                                    &kp LEFT_SHIFT
