@@ -170,10 +170,10 @@
 
         MACRO {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ASTERISK           &kp ASTRK         &kp STAR         &kp LEFT_PARENTHESIS  &kp LPAR                                  &kp GREATER_THAN  &kp GT            &kp QUESTION   &kp SLASH          &kp FSLH
+&kp RIGHT_PARENTHESIS  &kp RPAR          &kp SPACE        &kp MINUS             &kp UNDERSCORE  &kp UNDER      &kp GRAVE  &kp TILDE         &kp COMMA         &kp LESS_THAN  &kp LT             &kp PERIOD
+&kp EQUAL              &kp LEFT_BRACKET  &kp LBKT         &kp LEFT_BRACE        &kp LBRC        &kp UNDER      &kp SEMI   &kp COLON         &kp SINGLE_QUOTE  &kp APOS       &kp DOUBLE_QUOTES  &kp DQT
+&kp RIGHT_BRACKET      &kp RBKT          &kp RIGHT_BRACE  &kp RBRC              &kp BACKSLASH   &kp BSLH       &kp PIPE   &kp SEMICOLON                                                         &kp DOT
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
