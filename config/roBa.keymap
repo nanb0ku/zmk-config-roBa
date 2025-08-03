@@ -169,7 +169,7 @@
             bindings = <
 &kp Q  &kp W  &kp E  &kp R         &kp T                                &kp Y        &kp U  &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D  &kp F         &kp G  &none          &kp DEL        &kp H        &kp J  &kp K      &kp L    &mo_colon
-&kp Z  &kp X  &kp C  &kp V         &kp B  &none          &sl 0          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z  &kp X  &kp C  &kp V         &kp B  &none          &sl 1          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &none  &none  &none  &kp LEFT_WIN  &sl 1  &kp LSHFT      &kp BACKSPACE  &lt 2 ENTER                             &kp SEMICOLON
             >;
 
